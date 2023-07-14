@@ -13,6 +13,8 @@ steps:
   - name: Commit
     image: appleboy/drone-git-push
     settings:
+      author_name: 'jcodigital'
+      author_email: 'support@jco.fi'
       remote: 'https://bitbucket.org/jcodigital/jcore-vue-broiler.git'
       commit: true
-      commit_message: "[skip ci] Gutenberg block built by Drone CI"
+      commit_message: '[skip ci] Gutenberg block built by Drone CI'
