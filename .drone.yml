@@ -6,7 +6,7 @@ steps:
   - name: Build
     image: node:lts
     commands:
-      - cd vue-blocks/
+      - cd vue-block/
       - npm ci
       - npm run build
 
