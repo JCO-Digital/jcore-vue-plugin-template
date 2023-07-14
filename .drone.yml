@@ -6,7 +6,7 @@ steps:
   - name: Build
     image: node:lts
     commands:
-      - cd vue-blocks
+      - cd vue-blocks/
       - npm ci
       - npm run build
 
@@ -15,4 +15,4 @@ steps:
     settings:
       remote: git@bitbucket.org:jcodigital/jcore-vue-broiler.git
       commit: true
-      commit_message: [skip ci] Gutenberg block built by Drone CI
+      commit_message: "[skip ci] Gutenberg block built by Drone CI"
