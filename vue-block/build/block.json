@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "jcore-vue-block/vue-block",
+  "version": "0.1.0",
+  "title": "Vue Block",
+  "category": "media",
+  "icon": "smiley",
+  "description": "Insert a Vue app to your app",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "vue-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "id": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "div",
+      "attribute": "id",
+      "default": "app"
+    }
+  }
+}
